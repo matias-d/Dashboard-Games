@@ -91,30 +91,30 @@ function App() {
           </div>
          {/* Games List */}
           <div className='col-span-1 w-full h-[500px] bg-[#232323] lg:rounded-tr-xl lg:rounded-br-xl'>
-            <ul className='p-4 flex flex-col gap-4'>
+            <ul className='p-4 flex flex-col gap-4 lg:items-center'>
               <li>
                 <a href='#' className='flex items-center gap-4 text-white text-lg'>
                   <img src='https://static-cdn.jtvnw.net/ttv-boxart/33214-272x380.jpg' className='w-20 h-full object-cover'/>
                   
-                  <span className='md:hidden lg:block'>Fornite</span>
+                  <span className='md:hidden'>Fornite</span>
                 </a>
               </li>
               <li>
                 <a href='#' className='flex items-center gap-4 text-white text-lg'>
                   <img src='https://static-cdn.jtvnw.net/ttv-boxart/30921-272x380.jpg' className='w-20 h-full object-cover'/>
-                  <span className='md:hidden lg:block'>Rocket League</span>
+                  <span className='md:hidden'>Rocket League</span>
                 </a>
               </li>
               <li>
                 <a href='#' className='flex items-center gap-4 text-white text-lg'>
                   <img src='https://m.media-amazon.com/images/I/81mciIlvdTL._AC_SL1500_.jpg' className='w-20 h-full object-cover'/>
-                  <span className='md:hidden lg:block'>Fifa 22</span>
+                  <span className='md:hidden'>Fifa 22</span>
                 </a>
               </li>
               <li>
                 <a href='#' className='flex items-center gap-4 text-white text-lg'>
                   <img src='https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_LeagueofLegends_RiotGames_S2_1200x1600-7fd64f0f7b674900bdd172967865d545' className='w-20 h-full object-cover'/>
-                  <span className='md:hidden lg:block'>League of Legends</span>
+                  <span className='md:hidden'>League of Legends</span>
                 </a>
               </li>
             </ul>
